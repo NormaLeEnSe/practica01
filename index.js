@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const monthNames = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"];
 
       const dayName = dayNames[dayOfWeek];
-      const monthName = monthNames[month - 1]; // Utilizamos el array de meses
+      const monthName = monthNames[month - 1]; 
 
       let dayType;
 
